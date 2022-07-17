@@ -1,0 +1,9 @@
+    class based component
+    function based component
+
+    jsx fragment : <></>
+
+    let variable = "Variable"
+    {variable}
+
+    usestate hook to create state variable
