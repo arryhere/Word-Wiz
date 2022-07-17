@@ -39,13 +39,13 @@ export default function NavBar(props) {
   )
 }
 
-Navbar.propTypes = {
+NavBar.propTypes = {
   title: PropTypes.string.isRequired,
   home: PropTypes.string.isRequired,
   about: PropTypes.string.isRequired
 
 }
-Navbar.defaultProps = {
+NavBar.defaultProps = {
   title: "set-title-here",
   home: "set-home-here",
   about: "set-about-here"
