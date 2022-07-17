@@ -7,7 +7,7 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import Alert from './components/Alert'
 import TextForm from './components/TextForm'
 import About from './components/About';
@@ -81,7 +81,7 @@ function App() {
     <Router>
       <>
         <header>
-          <Navbar title="Word Wiz" home="Home" about="About" theme={"Theme"} mode={mode} altMode={altMode} toggleTheme={toggleTheme} themeKey={JSON.parse(localStorage.getItem('themeKey')).mode} />
+          <NavBar title="Word Wiz" home="Home" about="About" theme={"Theme"} mode={mode} altMode={altMode} toggleTheme={toggleTheme} themeKey={JSON.parse(localStorage.getItem('themeKey')).mode} />
           <Alert alert={alert} />
         </header>
 
